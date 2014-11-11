@@ -8147,7 +8147,7 @@ body > #body-container {
 .visible-desktop {
   display: inherit !important;
 }
-@media (min-width: 768px) and (max-width: 979px) {
+/*@media (min-width: 768px) and (max-width: 979px) {
   .hidden-desktop {
     display: inherit !important;
   }
@@ -8160,8 +8160,8 @@ body > #body-container {
   .hidden-tablet {
     display: none !important;
   }
-}
-@media (max-width: 767px) {
+}*/
+/*@media (max-width: 767px) {
   .hidden-desktop {
     display: inherit !important;
   }
@@ -8174,8 +8174,9 @@ body > #body-container {
   .hidden-phone {
     display: none !important;
   }
-}
-@media (min-width: 1200px) {
+}*/
+/*@media (min-width: 1200px) {*/
+@media (min-width: 100px) {
   .row {
     margin-left: -30px;
     *zoom: 1;
@@ -9012,7 +9013,7 @@ body > #body-container {
     margin-left: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 979px) {
+/*@media (min-width: 768px) and (max-width: 979px) {
   .row {
     margin-left: -20px;
     *zoom: 1;
@@ -9839,8 +9840,8 @@ body > #body-container {
   input.span1, textarea.span1, .uneditable-input.span1 {
     width: 14px;
   }
-}
-@media (max-width: 767px) {
+}*/
+/*@media (max-width: 767px) {
   body {
     padding-left: 20px;
     padding-right: 20px;
@@ -10110,14 +10111,16 @@ body > #body-container {
     padding-left: 10px;
     padding-right: 10px;
   }
-}
-@media (min-width: 980px) {
+}*/
+/*@media (min-width: 980px) {*/
+@media (min-width: 100px) {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
   }
 }
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {*/
+@media (min-width: 100px) {
   body .nav-page .page-nav-options {
     height: auto ! important;
   }
@@ -10513,7 +10516,8 @@ body > #body-container {
     margin-left: 101px;
   }
 }
-@media (min-width: 980px) {
+/*@media (min-width: 980px) {*/
+@media (min-width: 100px) {
   body .nav-page .page-nav-options {
     height: auto ! important;
   }
@@ -10908,7 +10912,7 @@ body > #body-container {
     margin-left: 77px;
   }
 }
-@media (min-width: 768px) and (max-width: 979px) {
+/*@media (min-width: 768px) and (max-width: 979px) {
   body .nav-page > .container {
     width: auto;
   }
@@ -11451,7 +11455,7 @@ body > #body-container {
   body .body-nav.body-nav-vertical ~ .page.container .container [class*="span"] {
     width: 100%;
   }
-}
+}*/
 /***
 *
 * This is a customization of the demo template.
